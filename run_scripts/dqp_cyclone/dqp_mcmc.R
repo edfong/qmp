@@ -1,5 +1,7 @@
-Rcpp::sourceCpp("ver0/MCMC_binary.cpp")
+# Author: Hyoin An (https://github.com/hyoin-an/DQP)
+# Modified: Edwin Fong
 
+Rcpp::sourceCpp("ver0/MCMC_binary.cpp")
 
 ### Data set up ###
 dat <- read.table("../../data/globalTCmax4.txt") # 2098 obs, over the globe, 1981-2006 (test data)

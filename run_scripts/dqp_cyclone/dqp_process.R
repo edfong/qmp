@@ -1,6 +1,8 @@
+# Author: Hyoin An (https://github.com/hyoin-an/DQP)
+# Modified: Edwin Fong
+
 library(ggplot2)
 library(tidyverse)
-
 
 load('cyclone_result.RData')
 
