@@ -26,7 +26,7 @@ The cyclone dataset (Elsner et al. [2008]) is the second dataset under "Lifetime
 
 
 ## Acknowledgements
-We thank Hyoin An for providing the code for the DQP method (An and MacEachern [2024]) which we used for our experiments. The R scripts within the `run_scripts/dqp_cyclone` folder are modified versions of the original code, which can be found in the `application` folder in the author's repository here: https://github.com/hyoin-an/DQP. 
+We thank Hyoin An for providing the code for the DQP method (An and MacEachern [2024]) which we used for our experiments. The R scripts within the `run_scripts/dqp_cyclone` folder are modified versions of the author's original code, which can be found in the `application` folder here: https://github.com/hyoin-an/DQP. 
 
 ## References
 J. B. Elsner, J. P. Kossin, and T. H. Jagger. The increasing intensity of the strongest tropical cyclones. Nature,
