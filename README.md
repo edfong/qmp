@@ -1,8 +1,5 @@
 # QMP: Quantile Martingale Posteriors
-This repository contains the code for the illustrations in the preprint "" by Edwin Fong & Andrew Yiu. 
-
-The run scripts 
-
+This repository contains the code for the illustrations in the preprint "Bayesian Quantile Estimation and Regression with Martingale Posteriors" by Edwin Fong & Andrew Yiu. 
 
 ## Installation
 The `qmp` package can be installed by running the following in the main folder:
@@ -13,20 +10,27 @@ or the following if you'd like to make edits to the package:
 ```
  pip3 install -e ./
 ```
-We recommend doing so in a clean virtual environment if reproducing the experimental results is of interest.
+We recommend doing so in a clean virtual environment.
 
 ## Running Experiments
-All experiment can be found in `run_scripts`.
+All experiment can be found in `run_scripts`, and can be run for example with:
 ```
 python3 run_sim.py
 ```
 The R scripts can be run in RStudio or terminal.
 
-Outputs from the experiments are stored in `plots/plot_data', and all plots can be produced by the Jupyter notebooks in `plots'. 
+Outputs from the experiments are stored in `plots/plot_data`, and all plots can be produced by the Jupyter notebooks in `plots`. 
 
 ## Data
-The simulated data is produced in the run scripts. The cyclone dataset can be found here: https://myweb.fsu.edu/jelsner/temp/Data.html.
+The cyclone dataset (Elsner et al. [2008]) is the second dataset under "Lifetime Maximum Wind Speeds (Global)" here: https://myweb.fsu.edu/jelsner/temp/Data.html. To run the experiments, download the data file `globalTCmax4.txt` into the `data` folder.
 
 
 ## Acknowledgements
-We thank Hyoin An for providing the code for the DQP method which we used for our experiments. The R scripts within the `run_scripts/dqp_cyclone' folder are modified versions of the `application' version here: https://github.com/hyoin-an/DQP.
+We thank Hyoin An for providing the code for the DQP method (An and MacEachern [2024]) which we used for our experiments. The R scripts within the `run_scripts/dqp_cyclone` folder are modified versions of the original code, which can be found in the `application` folder in the author's repository here: https://github.com/hyoin-an/DQP. 
+
+## References
+J. B. Elsner, J. P. Kossin, and T. H. Jagger. The increasing intensity of the strongest tropical cyclones. Nature,
+455(7209):92–95, 2008
+
+H. An and S. N. MacEachern. A process of dependent quantile pyramids. Journal of Nonparametric Statistics,
+pages 1–25, 2024.
