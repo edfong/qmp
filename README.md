@@ -1,5 +1,5 @@
 # QMP: Quantile Martingale Posteriors
-This repository contains the code for the illustrations in the preprint "Bayesian Quantile Estimation and Regression with Martingale Posteriors" by Edwin Fong & Andrew Yiu. 
+This repository contains the code for the illustrations in the preprint "Bayesian Quantile Estimation and Regression with Martingale Posteriors" by Edwin Fong & Andrew Yiu which can be found [here](https://arxiv.org/abs/2406.03358). 
 
 ## Installation
 The `qmp` package can be installed by running the following in the main folder:
